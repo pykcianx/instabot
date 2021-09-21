@@ -8,7 +8,7 @@ class Bot():
     links = []
     comments = ['Awesome!', 'Great!']
     def __init__(self):
-        self.login('sznapi221@gmail.com','muniol777')
+        self.login('example@gmail.com','pass')
         self.likehashtag('travel')
 
     def login(self, username, password):
